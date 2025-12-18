@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Finder</title>
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body data-page="search">
+
+<div class="pokebola-contenedor">
+  <div class="pokebola">
+    <div class="pokebola-roja"></div>
+    <div class="pokebola-linea"></div>
+    <div class="pokebola-boton">
+      <div class="pokebola-punto"></div>
+    </div>
+  </div>
+</div>
+
+<header>
+  <h1 class="titulo-main">POKÉMON FINDER</h1>
+
+  <div class="menu">
+    <a href="index.html"><button>🔍 Buscar</button></a>
+    <a href="historico.html"><button>📜 Histórico</button></a>
+    <a href="vs.html"><button>⚔ VS ⚔</button></a>
+    <a href="favoritos.html"><button>❤️ Favoritos</button></a>
+    <button id="tema">🌙</button>
+  </div>
+
+  <div class="buscador">
+    <select id="modo">
+      <option value="pokemon">👾 Pokémon</option>
+      <option value="habilidad">⚡️ Habilidad</option>
+    </select>
+    <input id="q" placeholder="Nombre o ID...">
+    <button id="b">BUSCAR</button>
+  </div>
+</header>
+
+<main id="app"></main>
+<audio id="sonido"></audio>
+
+<script src="shared.js"></script>
+</body>
+</html>
