@@ -1112,9 +1112,14 @@
 
             toggleFavorito() {
                 if (!state.currentPokemon) return;
+                
                 storage.alternarFavorito(state.currentPokemon);
+                
                 render.pokemon(state.currentPokemon, state.currentOrigen);
+                
+                evolution.cargar(state.currentPokemon.id);
             },
+
 
 
             toggleFavoritoDesdeHistorial(id) {
