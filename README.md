@@ -1,5 +1,15 @@
 # 🎮 Proyecto Semestral: PokéFinder - Aplicación Web con Consumo de API
 
+Integrantes:
+
+Alejandro Admadé 8-968-594
+Jonathan Gómez 8-1002-785
+Luis Moreno 8-1020-2224
+
+
+
+
+
 ## 🎯 Objetivos de Aprendizaje
 
 Al completar este proyecto, el estudiante será capaz de:
@@ -265,3 +275,6 @@ R: Si, de 2 y 3. Nadie individual, nadie en grupo de 4+.
 ---
 
 **¡Buena suerte y que la fuerza de los Pokémon te acompañe! ⚡🔥💧**
+
+
+Capturas de Pantalla
